@@ -14,7 +14,7 @@ var model = {
 
 var api = {
   root: "https://api.themoviedb.org/3",
-  token: "8e888fa39ec243e662e1fb738c42ae99" // TODO 0 add your api key
+  token: "d923693dbd18b9f2e37fcebd00e80fb2" // TODO 0 add your api key
 }
 
 
@@ -87,9 +87,10 @@ function render() {
 
     // TODO 1
     // create a paragraph containing the movie object's .overview value
+    var movie = $("<p></p>").text(movie.overview);
     // then, in the code block below,
     // append the paragraph in between the title and the button
-
+		 
 
     // append everything to itemView, along with an <hr/>
     var itemView = $("<li></li>")
